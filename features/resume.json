@@ -1,0 +1,117 @@
+{
+    "basics": {
+        "name": "John Doe",
+        "label": "Programmer",
+        "picture": "john-doe.jpg",
+        "email": "john@gmail.com",
+        "phone": "(912) 555-4321",
+        "website": "http://johndoe.com",
+        "summary": "A summary of John Doe...",
+        "location": {
+            "address": "2712 Broadway St",
+            "postalCode": "CA 94115",
+            "city": "San Francisco",
+            "countryCode": "USA",
+            "region": "California"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "john09",
+                "url": "http://twitter.com/john"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Microsoft",
+            "position": "CFO",
+            "website": "http://Microsoft.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "I love it is my general description...",
+            "highlights": [
+                "I started the company if you believe me(a robot)?"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "World Trade Organization",
+            "position": "sales manager",
+            "website": "http://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description...",
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Chicago",
+            "area": "Software Development",
+            "studyType": "Bachelor",
+            "startDate": "2011-01-01",
+            "endDate": "2013-01-01",
+            "gpa": "4.0",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Dream force",
+            "summary": "I work hard for it, very happy that I get this honor"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication of Learn Smart",
+            "publisher": "Salesforce",
+            "releaseDate": "2014-10-01",
+            "website": "http://publication.com",
+            "summary": "I Published Learn Smart"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master level!",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "rails",
+                "Ruby",
+                "React"
+                
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe2",
+            "reference": "Reference. of Facebook"
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+$chatbox-background: rgb(155, 155, 158);
+$chatbox-icon: rgb(202, 202, 202);
+
+#message_window footer {
+    background-color: $chatbox-background;
+    
+    height: 70px;
+    padding: 0.25rem;
+    border-radius: 10px;
+    border: 1px solid rgb(136, 136, 136);
+    margin: 0 1%;
+
+    transition: 0.2s border;
+    
+    
+    svg {
+        width: 100%;
+        height: 100%;
+        color: $chatbox-icon;
+    }
+}
+
+#message_window footer.focus {
+    border: 1px solid white;
+}
+
+.text-form {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+footer button {
+    
+}
+
+.text-form input {
+    background-color: $chatbox-background;
+    color: white;
+    
+    // flex-grow: 1;
+    font-size: 1.25rem;
+    outline: none;
+
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 1%;
+    border: none;
+}
+
+#mic {
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+
+    bottom: 10px;
+    right: 70px;
+    //  background-image: url(http://pngimg.com/uploads/triangle/triangle_PNG30.png);
+    // display: none;
+}
+
+#mic.recording svg {
+    color: rgb(0, 132, 255);
+    animation: recording 0.7s ease-in-out 0.7s infinite alternate;
+    outline: none;
+}
+
+@keyframes recording {
+    0% { color: rgb(0, 132, 255); }
+  100% { color: rgba(0, 132, 255, 0.411); }
+}
+
+
+.submit-text {
+    background: none;
+    font-weight: bold;
+    position: absolute;
+    
+    height: 40px;
+    width: 40px;
+    border: none;
+
+    bottom: 10px;
+    right: 20px;
+
+    cursor: pointer;
+}
+
+// form {
+//     display: flex;
+//     margin: 0;
+//     padding: 0.25rem;
+// }

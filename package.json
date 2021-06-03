@@ -1,0 +1,24 @@
+{
+  "name": "botkit-skjbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"sass --watch sass:public/css\"",
+    "start": "node bot.js",
+    "server": "nodemon bot.js",
+    "server:debug": "nodemon --inspect bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "botbuilder-adapter-web": "^1.0.9",
+    "botbuilder-storage-mongodb": "^0.9.5",
+    "botkit": "^4.10.0",
+    "botkit-plugin-cms": "^1.0.3",
+    "dotenv": "^7.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.5"
+  }
+}

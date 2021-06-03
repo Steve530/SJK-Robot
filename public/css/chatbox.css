@@ -1,0 +1,66 @@
+#message_window footer {
+  background-color: #ffffff;
+  height: 70px;
+  padding: 0.25rem;
+  border-radius: 10px;
+  border: 1px solid #888888;
+  margin: 0 1%;
+  transition: 0.2s border; }
+  #message_window footer svg {
+    width: 100%;
+    height: 100%;
+    color: #cacaca; }
+
+#message_window footer.focus {
+  border: 1px solid rgba(255, 255, 255, .5); }
+
+.text-form {
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+.text-form input {
+  background-color: white;
+  color: white;
+  font-size: 1.25rem;
+  outline: none;
+  
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 1%;
+  border: none; }
+
+#mic {
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 10px;
+  right: 70px;
+  outline: none;
+}
+
+#mic.recording svg {
+  color: #0084ff;
+  animation: recording 0.7s ease-in-out 0.7s infinite alternate;
+  outline: none; }
+
+@keyframes recording {
+  0% {
+    color: #0084ff; 
+    outline: none;}
+  100% {
+    color: rgba(0, 132, 255, 0.411); 
+    outline: none;} }
+.submit-text {
+  background: none;
+  font-weight: bold;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border: none;
+  bottom: 10px;
+  right: 20px;
+  cursor: pointer; }
+
+/*# sourceMappingURL=chatbox.css.map */
